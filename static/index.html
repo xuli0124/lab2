@@ -5,6 +5,9 @@
 	<title>HCI Project Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet"  href="css/introHCI.css">
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -16,67 +19,82 @@
 </head>
 
 <body>
-	<div>
+
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div>
-			<h1>Michael Bernstein</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
+		<div id="header">
+			<img src="images/i1.jpg" class="img-circle" height="220px" width="220px" >
+			<h1>Xu Li</h1>
+			<p class="text">UCSD computer science</p>
+			<p class="text">Seeking summer internship 2017</p>
 		</div>
-
-
-		<h4>Projects</h4>
+		<hr />
+		<div class="mainInfo">
+		<h2 >Projects</h2>
+		<hr/>
+		</div>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
-			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>Waiting in Line</p>
-			</a>
+		<div class="thumbnail" id="project1">
+			<div>
+				<h4>Operation Intern, Uber, Beijing, China</h4>
+				<p class="text">•	I am interned with commute team in Uber.</p>
+				<p class="text">•	I write SQL to collect trips and activities information of drivers from database so as to make proper rewards for them and to motivate drivers to take more trips.</p>
+			</div>
 		</div>
-		<div id="project2">
-			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>Needfinding</p>
-			</a>
+		<div class="thumbnail" id="project2">
+			<div>
+				<h4>Co-founder, Dingding Technology Company, Beijing</h4>
+				<p class="text">•	I am responsible for the development of Android application of Icampus, which is an application to connect students and communities in universities.</p>
+				<p class="text">•	Our team wins investment from Tsinghua Capital Funds, and won 2nd prize of “Feng Ru Cup” of business innovation competition.</p>
+			</div>
 		</div>
-		<div id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
-				<p>Prototyping</p>
-			</a>
+		<div class="thumbnail" id="project3">
+			<div>
+				<h4>Software Engineer, framework of a fitness application aimed at Serbia</h4>
+				<p class="text">•	I work remotely with product manager and designer in Serbia.</p>
+				<p class="text">•	I implement the framework of a fitness application with Java and Sqlite, demonstrating kinds of sports and offering countdown for each sport.</p>
+			</div>
 		</div>
-		<div id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
-				<p>Heuristic Evaluation</p>
-			</a>
+		<div class="thumbnail" id="project4">
+			<div>
+				<h4>Data Analyst, Baidu, Beijing</h4>
+				<p class="text">•	I supervise and Analyze data from a real-time coordinates database for Maidu Map.</p>
+				<p class="text">•	I give advice on improvement for the completeness and accuracy of data on Baidu Map.</p>
+			</div>
 		</div>
-		<div id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
-				<p>Visualization</p>
-			</a>
+		<hr />
+		<div class="mainInfo">
+		<h2 >Awards</h2>
+		<hr/>
 		</div>
-		<div id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
-				<p>Social design</p>
-			</a>
+		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
+		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
+		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
+		<div class="thumbnail" >
+			<div>
+				<p class="text">•	3rd-prize scholarship of Innovation Work for the 2012-2013 academic year.</p>
+			</div>
 		</div>
-		<div id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
-				<p>Gestural interaction</p>
-			</a>
+		<div class="thumbnail" >
+			<div>
+				<p class="text">•	3rd-prize scholarship Academic Excellence Prize for the 2013-2014 academic year.</p>
+			</div>
 		</div>
-		<div id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
-				<p>Design tools</p>
-			</a>
+		<div class="thumbnail" >
+			<div>
+				<p class="text">•	Student graduated with honors in 2016.</p>
+			</div>
 		</div>
-	</div>
+		<div class="thumbnail" >
+			<div>
+				<p class="text">•	Outstanding volunteer for the 6th China Cloud Computing Conference.</p>
+			</div>
+		</div>
+	
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://bootstrap.min.js"></script>
 </body>
 </html>

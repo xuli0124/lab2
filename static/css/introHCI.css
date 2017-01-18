@@ -14,7 +14,34 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background: #FFD2D2;
 }
+h1{
+     color:    #ADADAD;
+}
+h2{
+     color:    #ADADAD;
+}
+h4{
+     color:    #BEBEBE;
+}
+.text{
+     color:    #ADADAD;
+}
+#header{
+     margin-top: 50px;
+     text-align: center;
+     font-style: #8E8E8E;
+     background-image: url(lorempixel.city.2.jpeg);
+
+}
+.mainInfo{
+     text-align: center;
+     font-style: #8E8E8E;
+}
+ .subheader{
+     margin-left: 15px;
+ }
 
 .jumbotron {
 	position: relative;
@@ -31,4 +58,12 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+.project{
+     margin-left: 10px;
+}
+
+.img{
+     height: 50px;
+     width: 50px;
 }
